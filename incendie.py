@@ -45,11 +45,11 @@ canvas.create_line((300,0), (300,500))
 canvas.create_line((400,0), (400,500))
 canvas.create_line((500,0), (500,500))
 
-canvas.create_line((100,0), (100,500))
-canvas.create_line((200,0), (200,500))
-canvas.create_line((300,0), (300,500))
-canvas.create_line((400,0), (400,500))
-canvas.create_line((500,0), (500,500))
+canvas.create_line((0,100), (500,100))
+canvas.create_line((0,200), (500,200))
+canvas.create_line((0,300), (500,300))
+canvas.create_line((0,400), (500,400))
+canvas.create_line((0,500), (500,500))
 
 canvas.grid(column = 0 , row = 0)
 
